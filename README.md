@@ -1,8 +1,8 @@
 House Painting Business Management System
-Overview
+==> Overview
 Welcome to the House Painting Business Management System! This application is designed to streamline the management of house painting projects, including tracking employee attendance, managing projects, handling payments, and more. The system provides a modern and user-friendly interface, leveraging React for the frontend and Spring Boot for the backend.
 
-Features
+==> Features
 User Authentication: Secure login and registration with role-based access control.
 Attendance Tracking: Record and manage employee attendance, including presence and absence.
 Project Management: Create, update, and manage painting projects with detailed information.
@@ -21,42 +21,9 @@ Installation
 Prerequisites
 Java JDK 17+
 Node.js 16+
-MySQL Database
-Backend Setup
-Clone the Repository
+MySQL Databases
 
-bash
-Copy code
-git clone https://github.com/yourusername/house-painting-business-management.git
-cd house-painting-business-management/backend
-Configure the Database
-
-Set up your MySQL database.
-Update src/main/resources/application.properties with your database credentials.
-Build and Run the Application
-
-bash
-Copy code
-./mvnw spring-boot:run
-Frontend Setup
-Navigate to the Frontend Directory
-
-bash
-Copy code
-cd ../frontend
-Install Dependencies
-
-bash
-Copy code
-npm install
-Start the Development Server
-
-bash
-Copy code
-npm start
-API Endpoints
-Attendance Management
-
+==> Endpoints
 GET /api/attendances - Retrieve all attendance records
 GET /api/attendances/{id} - Retrieve attendance record by ID
 POST /api/attendances - Create a new attendance record
@@ -90,13 +57,6 @@ Collect Feedback: View and manage client feedback under the "Feedback" section.
 Contributing
 We welcome contributions to this project. To contribute:
 
-Fork the repository.
-Create a new branch (git checkout -b feature/your-feature).
-Commit your changes (git commit -am 'Add new feature').
-Push to the branch (git push origin feature/your-feature).
-Open a Pull Request.
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 Acknowledgments
 Spring Boot: For providing a robust backend framework.
