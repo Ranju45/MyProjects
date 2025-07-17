@@ -1,67 +1,31 @@
-House Painting Business Management System
-==> Overview
-Welcome to the House Painting Business Management System! This application is designed to streamline the management of house painting projects, including tracking employee attendance, managing projects, handling payments, and more. The system provides a modern and user-friendly interface, leveraging React for the frontend and Spring Boot for the backend.
+# Painting Contractor Management System - Backend
 
-==> Features
-User Authentication: Secure login and registration with role-based access control.
-Attendance Tracking: Record and manage employee attendance, including presence and absence.
-Project Management: Create, update, and manage painting projects with detailed information.
-Payment Management: Track and manage payments related to various projects.
-Quotation Management: Generate and manage quotations for potential projects.
-Feedback Collection: Collect and manage client feedback efficiently.
-Labour Management: Manage details of labor and their assignments to projects.
-Technologies
-Frontend: React.js, Vite
-Backend: Spring Boot, Maven
-Database: MySQL
-Authentication: Keycloak
-APIs: RESTful
-Styling: Custom CSS for responsive and professional design
-Installation
-Prerequisites
-Java JDK 17+
-Node.js 16+
-MySQL Databases
+![Java](https://img.shields.io/badge/Java-17-blue)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-2.7.0-green)
+![MySQL](https://img.shields.io/badge/MySQL-8.0-orange)
+![JWT](https://img.shields.io/badge/JWT-Auth-yellow)
 
-==> Endpoints
-GET /api/attendances - Retrieve all attendance records
-GET /api/attendances/{id} - Retrieve attendance record by ID
-POST /api/attendances - Create a new attendance record
-PUT /api/attendances/{id} - Update an existing attendance record
-DELETE /api/attendances/{id} - Delete an attendance record
-Project Management
+A complete backend system for managing painting contractors, labor, and building projects with JWT authentication.
 
-GET /api/projects - Retrieve all projects
-POST /api/projects - Create a new project
-PUT /api/projects/{id} - Update an existing project
-DELETE /api/projects/{id} - Delete a project
-Payment Management
+## Features
 
-GET /api/payments - Retrieve all payments
-POST /api/payments - Create a new payment
-PUT /api/payments/{id} - Update an existing payment
-DELETE /api/payments/{id} - Delete a payment
-Quotation Management
+- **User Authentication**: JWT-based signup/login with roles (Admin/Customer)
+- **Product Management**: CRUD operations for painting materials
+- **Project Workflow**: Quotations, payments, and status tracking
+- **Labor Management**: Attendance tracking and salary calculation
+- **REST API**: Fully documented endpoints
 
-GET /api/quotations - Retrieve all quotations
-POST /api/quotations - Create a new quotation
-PUT /api/quotations/{id} - Update an existing quotation
-DELETE /api/quotations/{id} - Delete a quotation
-Usage
-Login: Access the application at http://localhost:3000 and log in using your credentials.
-Manage Projects: Navigate to the "Projects" section to create and manage projects.
-Track Attendance: Go to the "Attendance" section to record and review employee attendance.
-Handle Payments: Use the "Payments" section to track and manage payments.
-Generate Quotations: Create and manage quotations in the "Quotations" section.
-Collect Feedback: View and manage client feedback under the "Feedback" section.
-Contributing
-We welcome contributions to this project. To contribute:
+## Tech Stack
 
+- **Backend**: Java 17, Spring Boot 2.7
+- **Security**: JWT, Spring Security
+- **Database**: MySQL 8.0
+- **Build Tool**: Maven
 
-Acknowledgments
-Spring Boot: For providing a robust backend framework.
-React: For enabling a dynamic and responsive frontend.
-MySQL: For efficient database management.
-Keycloak: For secure and flexible authentication.
-Contact
-For any questions or support, please contact ranjitranju145@gmail.com.
+## Installation
+
+### Prerequisites
+- Java 17 JDK
+- MySQL 8.0+
+- Maven 3.8+
+
